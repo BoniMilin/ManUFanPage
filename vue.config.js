@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 
 module.exports = {
+  publicPath: './', // Ensures proper loading of assets
   configureWebpack: {
     plugins: [
       new webpack.DefinePlugin({
